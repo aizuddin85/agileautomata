@@ -1,0 +1,21 @@
+luxchk_clean_fs.sh v1.4
+[OUTPUT]
+Image        : Linux Classic
+Date         : Wed Nov 29 19:20:06 CST 2017
+Hostname     : houic-n-s99989
+
+RHEL Classic Image detected. Running clean up routine...
+- Deleting any .tgz, .tar.gz and .gz files with access time older than 90 days in /var/log/ directory...
+
+Root FS usage before cleanup
+Total Size    : 35G
+Free Size     : 3.3G
+Free %        : 91%
+
+Root FS usage after cleanup
+Free %        : 91%
+Threshold     : 90%
+
+[RESULT]
+CODE:FAIL
+ACTION: Dispath Ticket To L2

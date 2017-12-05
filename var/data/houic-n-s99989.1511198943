@@ -1,0 +1,23 @@
+cleanfs.sh v1.2
+[OUTPUT]
+Image        : Linux Classic
+Date         : Mon Nov 20 11:29:06 CST 2017
+Hostname     : houic-n-s99989
+
+RHEL Classic Image detected. Running clean up routine...
+- Deleting any .tgz file with access time older than 90 days in /var/log/ directory...
+- Deleting any .tar.gz file with access time older than 90 days in /var/log/ directory...
+- Deleting any .gz file with access time older than 90 days in /var/log/ directory...
+
+[OUTPUT]
+Root FS usage before cleanup
+Total Size    : 35G
+Free Size     : 3.3G
+Free %        : 91%
+
+Root FS usage after cleanup
+Free %        : 91%
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

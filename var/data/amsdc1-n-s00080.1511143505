@@ -1,0 +1,126 @@
+cleanfs.sh v1.1
+[OUTPUT]
+Image        : Linux Classic
+Date         : Mon Nov 20 03:05:30 CET 2017
+Hostname     : amsdc1-n-s00080
+
+RHEL Classic Image detected. Running clean up routine...
+- Deleting any .tgz file with access time older than 90 days in /var/log/ directory...
+5210792 52756 -rw-r--r--   1 root     root     53962659 Jan 24  2017 /var/log/messages-25012017.tgz
+5210710 123908 -rw-r--r--   1 root     root     126749920 May 31 15:45 /var/log/secure_2017-05-31.tgz
+5211218 78184 -rw-r--r--   1 root     root     79971922 May 21  2017 /var/log/secure-2017-05-21.tgz
+5211442 45912 -rw-r--r--   1 root     root     46960286 May 21  2017 /var/log/messages-2017-05-21.tgz
+5210618 40828 -rw-r--r--   1 root     root     41759066 Apr 15  2017 /var/log/secure_bak-15042017.tgz
+5210915 45388 -rw-r--r--   1 root     root     46420965 May 29 04:34 /var/log/messages_2017-05-29.tgz
+5212561 58840 -rw-r--r--   1 root     root     60183391 Jan 24  2017 /var/log/secure-25012017.tgz
+5211523 28160 -rw-r--r--   1 root     root     28800457 Jan 29  2017 /var/log/messages-29012017.tgz
+5210687 46688 -rw-r--r--   1 root     root     47752252 May 14  2017 /var/log/secure_bak-140517.tgz
+5210625 56016 -rw-r--r--   1 root     root     57295095 Jan 29  2017 /var/log/secure-29012017.tgz
+5210943 38552 -rw-r--r--   1 root     root     39429296 May  7  2017 /var/log/messages-08052017.tgz
+- Deleting any .tar.gz file with access time older than 90 days in /var/log/ directory...
+- Deleting any .gz file with access time older than 90 days in /var/log/ directory...
+5211457  228 -rw-------   1 root     root       227662 Apr  1  2017 /var/log/maillog.8.gz
+5211126   64 -rw-------   1 root     root        60385 Mar  1  2017 /var/log/cron.9.gz
+5220880  124 -rw-------   1 root     root       119649 Mar  1  2017 /var/log/secure.9.gz
+5220861   36 -rw-rw-r--   1 root     utmp        34552 Feb  1  2017 /var/log/wtmp.10.gz
+5210786 17316 -rw-r--r--   1 root     root     17703571 Apr 23  2017 /var/log/messages.23apr2017.gz
+5210965    4 -rw-------   1 root     root           20 Feb  1  2017 /var/log/boot.log.10.gz
+5211288    4 -rw-------   1 root     root           20 Jul  1 04:02 /var/log/boot.log.5.gz
+5220875   28 -rw-rw-r--   1 root     utmp        28088 Mar  1  2017 /var/log/wtmp.9.gz
+5211124    4 -rw-------   1 root     root           20 Mar  1  2017 /var/log/boot.log.9.gz
+5211519 22336 -rw-r--r--   1 root     root     22840122 Feb  9  2017 /var/log/messages.09feb2017.gz
+5211432 26116 -rw-r--r--   1 root     root     26709563 Mar 24  2017 /var/log/messages.25mar2017.gz
+5211366    4 -rw-r--r--   1 root     root         2408 May  1  2017 /var/log/up2date.7.gz
+5210905 32760 -rw-r--r--   1 root     root     33505389 Jun  4 22:02 /var/log/secure.05jun2017.gz
+5211247 41540 -rw-r--r--   1 root     root     42487740 Feb  9  2017 /var/log/secure.09feb2017.gz
+5211280 63488 -rw-------   1 root     root     64939499 May  1  2017 /var/log/secure.7.gz
+5211524 3148 -rw-r--r--   1 root     root      3218448 Feb 28  2017 /var/log/messages.01mar2017.gz
+5211276    4 -rw-r--r--   1 root     root         2289 Mar  1  2017 /var/log/up2date.9.gz
+5211267 25024 -rw-------   1 root     root     25591756 Jul  1 04:02 /var/log/secure.5.gz
+5211285    4 -rw-------   1 root     root           20 Jul  1 04:02 /var/log/spooler.5.gz
+5211226    4 -rw-------   1 root     root           20 Mar  1  2017 /var/log/spooler.9.gz
+5211268 33296 -rw-r-----   1 root     monitor  34053178 May  1  2017 /var/log/messages.7.gz
+5211026 18176 -rw-r--r--   1 root     root     18587306 Jul 11 08:16 /var/log/secure.11072017.gz
+5211683   36 -rw-rw-r--   1 root     utmp        33529 Aug  1 04:02 /var/log/wtmp.4.gz
+5211371    4 -rw-r--r--   1 root     root         2408 Jul  1 04:02 /var/log/up2date.5.gz
+5211510 33712 -rw-r--r--   1 root     root     34477219 Mar  6  2017 /var/log/secure.06mar2017.gz
+5211068 31192 -rw-r--r--   1 root     root     31903457 Jun 11 22:33 /var/log/messages.12jun2017.gz
+5211413 4036 -rw-r--r--   1 root     root      4128021 Feb 20  2017 /var/log/messages.21feb2017.gz
+5211270   72 -rw-------   1 root     root        65872 Jun  1 04:08 /var/log/cron.6.gz
+5210575 36216 -rw-r--r--   1 root     root     37043185 Apr  9  2017 /var/log/secure.10apr2017.gz
+5211262   36 -rw-rw-r--   1 root     utmp        33292 May  1  2017 /var/log/wtmp.7.gz
+5211373 28240 -rw-r--r--   1 root     root     28881016 Mar 16  2017 /var/log/secure.17mar2017.gz
+5212619  216 -rw-------   1 root     root       214169 Aug  1 04:02 /var/log/maillog.4.gz
+5308715    4 -rw-r--r--   1 root     root         1009 Apr  1  2017 /var/log/rhsm/rhsmcertd.log.8.gz
+5308708    4 -rw-r--r--   1 root     root          993 May  1  2017 /var/log/rhsm/rhsmcertd.log.7.gz
+3244495    4 -rw-r--r--   1 root     root         2036 Mar  1  2017 /var/log/rhsm/rhsm.log.9.gz
+5308710    4 -rw-r--r--   1 root     root          903 Mar  1  2017 /var/log/rhsm/rhsmcertd.log.9.gz
+5308419    4 -rw-r--r--   1 root     root         1154 Jul  1 04:02 /var/log/rhsm/rhsmcertd.log.5.gz
+5308443    4 -rw-r--r--   1 root     root         2684 Aug  1 04:02 /var/log/rhsm/rhsm.log.4.gz
+5308700    4 -rw-r--r--   1 root     root         1026 Jun  1 04:08 /var/log/rhsm/rhsmcertd.log.6.gz
+5308713    4 -rw-r--r--   1 root     root         1006 Feb  1  2017 /var/log/rhsm/rhsmcertd.log.10.gz
+5308434    4 -rw-r--r--   1 root     root          978 Aug  1 04:02 /var/log/rhsm/rhsmcertd.log.4.gz
+5308789    4 -rw-r--r--   1 root     root         2342 Jun  1 04:08 /var/log/rhsm/rhsm.log.6.gz
+5308707    4 -rw-r--r--   1 root     root         2602 May  1  2017 /var/log/rhsm/rhsm.log.7.gz
+5309335    4 -rw-r--r--   1 root     root         2678 Apr  1  2017 /var/log/rhsm/rhsm.log.8.gz
+5309528    4 -rw-r--r--   1 root     root         3359 Feb  1  2017 /var/log/rhsm/rhsm.log.10.gz
+5308728    4 -rw-r--r--   1 root     root         2275 Jul  1 04:02 /var/log/rhsm/rhsm.log.5.gz
+5210990   88 -rw-------   1 root     root        83851 Feb  1  2017 /var/log/cron.10.gz
+5211286  236 -rw-------   1 root     root       235569 May  1  2017 /var/log/maillog.7.gz
+5211146  224 -rw-------   1 root     root       223136 Jun  1 04:08 /var/log/maillog.6.gz
+5211283  208 -rw-------   1 root     root       206002 Jul  1 04:02 /var/log/maillog.5.gz
+5211492 20100 -rw-r-----   1 root     monitor  20556456 Jun  1 04:08 /var/log/messages.6.gz
+5211808    4 -rw-r--r--   1 root     root         2492 Apr  1  2017 /var/log/up2date.8.gz
+5211421    4 -rw-r--r--   1 root     root         2659 Feb  1  2017 /var/log/up2date.10.gz
+5211505    4 -rw-r--r--   1 root     root         2556 Jun  1 04:08 /var/log/up2date.6.gz
+5220876  104 -rw-r-----   1 root     monitor    102047 Mar  1  2017 /var/log/messages.9.gz
+5211162   32 -rw-rw-r--   1 root     utmp        31003 Jul  1 04:02 /var/log/wtmp.5.gz
+5220867 19336 -rw-r-----   1 root     monitor  19774367 Apr  1  2017 /var/log/messages.8.gz
+5210570    4 -rw-------   1 root     root           20 Apr  1  2017 /var/log/spooler.8.gz
+5211259    4 -rw-------   1 root     root           20 Aug  1 04:02 /var/log/boot.log.4.gz
+5211227  268 -rw-------   1 root     root       269495 Feb  1  2017 /var/log/maillog.10.gz
+5211504 6168 -rw-------   1 root     root      6302832 Jun  1 04:08 /var/log/secure.6.gz
+5211302   68 -rw-------   1 root     root        63370 Jul  1 04:02 /var/log/cron.5.gz
+5210996 25432 -rw-r--r--   1 root     root     26006713 May  4  2017 /var/log/secure.05apr2017.gz
+5212504 23828 -rw-r--r--   1 root     root     24367959 Mar 24  2017 /var/log/secure.25mar2017.gz
+5211071   68 -rw-------   1 root     root        65514 Apr  1  2017 /var/log/cron.8.gz
+5211290 24768 -rw-r--r--   1 root     root     25327882 Apr  1  2017 /var/log/secure.01apr2017.gz
+5211160    4 -rw-------   1 root     root           20 Apr  1  2017 /var/log/boot.log.8.gz
+5211298   72 -rw-------   1 root     root        67258 May  1  2017 /var/log/cron.7.gz
+5212623    4 -rw-r--r--   1 root     root         2500 Aug  1 04:02 /var/log/up2date.4.gz
+5211297    4 -rw-------   1 root     root           20 May  1  2017 /var/log/boot.log.7.gz
+5211260   72 -rw-------   1 root     root        67642 Aug  1 04:02 /var/log/cron.4.gz
+5211534 17604 -rw-r--r--   1 root     root     18001040 Mar  6  2017 /var/log/messages.06mar2017.gz
+5210778 5368 -rw-r--r--   1 root     root      5483086 Mar 14  2017 /var/log/messages.14mar2017.gz
+5211466  200 -rw-------   1 root     root       198213 Mar  1  2017 /var/log/maillog.9.gz
+5211255 11688 -rw-r-----   1 root     monitor  11949780 Jul  1 04:02 /var/log/messages.5.gz
+5212618  120 -rw-------   1 root     root       116679 Aug  1 04:02 /var/log/secure.4.gz
+5211301 20400 -rw-r--r--   1 root     root     20863502 Apr 16  2017 /var/log/messages.16apr2017.gz
+5211508 27956 -rw-r--r--   1 root     root     28590222 Jun 11 22:35 /var/log/secure.12jun2017.gz
+5211525 20532 -rw-r--r--   1 root     root     20996794 Apr  9  2017 /var/log/messages.10apr2017.gz
+5220872 1532 -rw-------   1 root     root      1563036 Apr  1  2017 /var/log/secure.8.gz
+5211269    4 -rw-------   1 root     root           20 Jun  1 04:08 /var/log/boot.log.6.gz
+5211295    4 -rw-------   1 root     root           20 May  1  2017 /var/log/spooler.7.gz
+5211431   36 -rw-rw-r--   1 root     utmp        35917 Jun  1 04:08 /var/log/wtmp.6.gz
+5211243    4 -rw-------   1 root     root           20 Feb  1  2017 /var/log/spooler.10.gz
+5210918 29084 -rw-r--r--   1 root     root     29742782 Apr 23  2017 /var/log/secure.23apr2017.gz
+5220865 31508 -rw-------   1 root     root     32227170 Feb  1  2017 /var/log/secure.10.gz
+5211150    4 -rw-------   1 root     root           20 Jun  1 04:08 /var/log/spooler.6.gz
+5220863   40 -rw-rw-r--   1 root     utmp        38728 Apr  1  2017 /var/log/wtmp.8.gz
+5211531 10664 -rw-r--r--   1 root     root     10902880 Apr 16  2017 /var/log/secure.17apr2017.gz
+5220862 16044 -rw-r-----   1 root     monitor  16408550 Feb  1  2017 /var/log/messages.10.gz
+5212621    4 -rw-------   1 root     root           20 Aug  1 04:02 /var/log/spooler.4.gz
+5212602 11808 -rw-r-----   1 root     monitor  12070985 Aug  1 04:02 /var/log/messages.4.gz
+
+[OUTPUT]
+Root FS usage before cleanup
+Total Size    : 35G
+Free Size     : 6.5G
+Free %        : 81%
+
+Root FS usage after cleanup
+Free %        : 77%
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

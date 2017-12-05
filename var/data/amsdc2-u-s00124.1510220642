@@ -1,0 +1,9 @@
+cleanfs.sh v1.1
+[OUTPUT]
+Image        : AIX Classic
+Date         : Thu Nov  9 10:44:01 CET 2017
+Hostname     : amsdc2-u-s00124
+
+Non Supported OS Type. Exit script
+[RESULT]
+CODE:UNKNOWN

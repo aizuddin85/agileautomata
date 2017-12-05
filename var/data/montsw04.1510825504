@@ -1,0 +1,26 @@
+check_hpoa v1.2
+[OUTPUT]
+Image        : HP-UX
+Date         : Thu Nov 16 03:50:08 CST 2017
+Hostname     : montsw04
+
+scopeux     Perf Agent data collector                        (19459)  Running
+midaemon    Measurement Interface daemon                     (19301)  Running
+ttd         ARM registration daemon                          (19300)  Running
+perfalarm   Alarm generator                                  (19482)  Running
+perfd       real time server                                 (19289)  Running
+agtrep      OV Discovery Agent                  AGENT,AgtRep (19374)  Running 
+coda        OV Performance Core                 COREXT       (19309)  Running 
+opcacta     OVO Action Agent                    AGENT,EA     (19327)  Running 
+opcle       OVO Logfile Encapsulator            AGENT,EA     (19346)  Running 
+opcmona     OVO Monitor Agent                   AGENT,EA     (19350)  Running 
+opcmsga     OVO Message Agent                   AGENT,EA     (19318)  Running 
+opcmsgi     OVO Message Interceptor             AGENT,EA     (19338)  Running 
+ovbbccb     OV Communication Broker             CORE         (19304)  Running 
+ovcd        OV Control                          CORE         (19303)  Running 
+ovconfd     OV Config and Deploy                COREXT       (19305)  Running 
+Message Agent is not buffering. 
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

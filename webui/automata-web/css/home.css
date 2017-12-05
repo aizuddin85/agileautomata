@@ -1,0 +1,387 @@
+
+body.list{
+    background-color: #888;
+}
+
+
+body.home {
+    background: url(images/automata.jpg);
+    position:relative;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+body.home p{ 
+        position: absolute;
+	float: left;
+        color: white;
+}
+
+.landing {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.landing a{
+        position: absolute;
+        color: white;
+        text-align: center;
+}
+
+
+
+
+}
+
+.footer {
+  position: relative;
+  bottom: 5px;
+  color: white;
+  font-family: "Arial", Courier, monospace;
+}
+
+
+.footer p {
+
+text-align: center;
+color: white;
+max-height: 5px;
+    font-family: "Arial", Courier, monospace;
+}
+
+
+
+.welcome {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 80px;
+	font-family: "Courier New", Courier, monospace;
+
+
+}
+
+
+table{
+   border: 1px solid black;
+   position: relative;
+   left: 0%;
+   margin: auto;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: "Arial", Courier, monospace;
+    font-size: 12px;
+}
+
+
+td a {
+    color: white;
+}
+
+td a:visited {
+    color: #F77E7E; 
+}
+
+td a:hover {
+    color: red;
+}
+
+th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: "Arial", Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+tr {
+background-color:black;
+opacity: 0.7;
+}
+
+.topnavi {
+
+        list-style-type: none;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 10px;
+        overflow: hidden;
+        background-color: black;
+        border: solid;
+        border-style: outset;
+        opacity: 0.7;
+}
+
+
+.topnavi h2 {
+	font-family: "Arial", Courier, monospace;
+	color: white;
+
+
+}
+
+
+
+
+.topnavi img {
+        float: lef;
+        height: 50px;
+        width: 250px;
+        padding: 10px;
+        display: inline;
+
+}
+
+
+.topnavi img[alt='shelllogo'] {
+        float: left;
+        height: 120px;
+        width: 140px;
+        padding: 10px;
+        display: inline;
+
+}
+
+
+.topnavi img[alt='tlogo'] {
+        float: right;
+        height: 80px;
+        width: 250px;
+        padding: 3px;
+        display: inline;
+
+}
+
+
+
+.topnavi ul {
+	list-style-type: none;
+        border-radius: 20px;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+        background-color: black;
+        border: solid;
+        border-style: outset;
+        opacity: 0.7;
+}
+
+
+.topnavi font {
+        height: 50px;
+        width: 250px;
+        color: white;
+       font-size: 50px;
+       position: relative;
+       text-align: auto;
+
+}
+
+.topnavi li {
+        display: inline;
+	float: right;
+        list-style-type: none;
+}
+
+.topnavi  a {
+
+        padding: 7px 21px;
+	margin: 20px;
+	list-style-type: none;
+	display: inline;
+        background: black;
+        color: white;
+	float: right;
+        border-style: outset;
+        border-radius: 20px;
+        /*border-color: #0066A2;*/
+        font-family: "Arial", Courier, monospace;
+        font: 17px;
+
+}
+
+.topnavi  a:hover {
+
+        background: black;
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px #eee;
+        transition: 0.3s;
+        opacity: 0.7;
+
+
+}
+
+
+.topnavi  li.icon {
+	display: none;
+}
+
+
+
+form.home {
+padding: 50px;
+margin: 0 auto;
+width: 30%;
+text-align: center;
+border: solid;
+border-style: outset;
+background-color: black;
+opacity: 0.7;
+border-radius: 20px;
+}
+
+form.home font  {
+	font-family: "Arial", Courier, monospace;
+	font-size: 17px;
+        color: white;
+}
+
+
+form.home input[type="text"] {
+	padding: 10px;
+	border: solid 1px #fff;
+	box-shadow: inset 1px 1px 2px 0 #707070;
+	transition: box-shadow 0.3s; 
+}
+
+
+
+
+form.home input[name="sm9id"] {
+        padding: 0;
+        background: black;
+        color: white;
+        border-style: outset;
+        border-color: #0066A2;
+        height: 40px;
+        width: 200px;
+        text-align: center;
+        font-family: "Arial", Courier, monospace;
+        font: 15px arial, sans-serif;
+}
+
+
+form.home input[name="sm9info"] {
+        padding: 0;
+        background: black;
+        color: white;
+        border-style: outset;
+        border-color: #0066A2;
+        height: 40px;
+        width: 300px;
+        text-align: center;
+        font-family: "Arial", Courier, monospace;
+        font: 15px arial, sans-serif;
+}
+
+
+
+form.home input[name="hostname"] {
+        padding: 0;
+        background: black;
+        color: white;
+        border-style: outset;
+        border-color: #0066A2;
+        height: 40px;
+        width: 300px;
+        text-align: center;
+        font-family: "Arial", Courier, monospace;
+        font: 15px arial, sans-serif;
+}
+
+
+
+form.home input[name="sm9ag"] {
+        padding: 0;
+        background: black;
+        color: white;
+        border-style: outset;
+        border-color: #0066A2;
+        height: 40px;
+        width: 280px;
+        text-align: center;
+        font-family: "Arial", Courier, monospace;
+	text-transform: uppercase;
+        font: 15px arial, sans-serif;
+}
+
+
+
+form.home input[type="submit"] {
+        padding: 0;
+	background: black;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 50px;
+	width: 100px;
+        font-family: "Arial", Courier, monospace;
+	font: 15px arial, sans-serif;
+}
+
+
+
+
+
+
+form.home input[type="submit"]:hover {
+
+
+        background: black;
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px #eee;
+        transition: 0.3s;
+        opacity: 0.7;
+
+}	
+
+
+
+form.back input[type="button"] {
+
+	position: relative;
+	background: black;
+        opacity: 0.7;
+        left: 0%; 
+        padding: 0;
+    	color:white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 50px;
+        width: 100px;
+        font: bold 15px arial, sans-serif;
+}
+
+form.back input[type="button"]:hover {
+        background: black;
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px #eee;
+        transition: 0.3s;
+        opacity: 0.7;
+}
+
+     
+
+p.legend {
+border: solid
+color: #fff;
+} 

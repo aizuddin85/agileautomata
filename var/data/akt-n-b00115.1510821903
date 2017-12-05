@@ -1,0 +1,8 @@
+check_hpoa v1.0
+Stopping HPOA agent processes...
+Starting HPOA agent processes....
+HPOA agent restart failed. 
+
+[RESULT]
+CODE:FAIL
+ACTION: Dispath Ticket To L2

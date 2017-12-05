@@ -1,0 +1,13 @@
+check_hpoa v2.1
+[OUTPUT]
+Image        : SunOS Classic
+Date         : Friday, November 17, 2017 01:03:53 AM CST
+Hostname     : houcy1-u-v5006
+
+Checking HPOA agent status...
+HPOA is not installed
+
+[RESULT]
+CODE:FAIL
+ACTION: Dispath Ticket To L2
+ACTION: Please verify if server is in scope for monitoring via TREP. If YES, then re-install HPOA software. If NO, then request ENSM to remove the monitor.

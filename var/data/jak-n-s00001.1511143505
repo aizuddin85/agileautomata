@@ -1,0 +1,22 @@
+check_hpoa v2.1
+[OUTPUT]
+Image        : Linux Classic
+Date         : Mon Nov 20 09:05:25 WIB 2017
+Hostname     : jak-n-s00001
+
+Checking HPOA agent status...
+Running agents:
+agtrep (9338)
+coda (9219)
+opcacta (9275)
+opcle (9310)
+opcmona (9225)
+opcmsga (9233)
+opcmsgi (9295)
+ovbbccb (31950)
+ovcd (31827)
+ovconfd (9203)
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

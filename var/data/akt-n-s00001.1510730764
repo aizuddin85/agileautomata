@@ -1,0 +1,10 @@
+check_hpoa v1.0
+opcacta     OVO Action Agent                    AGENT,EA     (5757)   Running 
+opcle       OVO Logfile Encapsulator            AGENT,EA     (5796)   Running 
+opcmona     OVO Monitor Agent                   AGENT,EA     (5715)   Running 
+opcmsga     OVO Message Agent                   AGENT,EA     (5706)   Running 
+opcmsgi     OVO Message Interceptor             AGENT,EA     (5767)   Running 
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

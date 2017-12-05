@@ -1,0 +1,12 @@
+checkcpu.sh v1.2
+[OUTPUT]
+Image        : AIX Classic
+Date         : Fri Nov 17 07:44:04 CUT 2017
+Hostname     : ztm1001
+
+Getting CPU info...
+CPU Busy     : 7%
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

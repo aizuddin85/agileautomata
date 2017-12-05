@@ -1,0 +1,50 @@
+#!/bin/ksh
+#ident "@(#)check_hpoa   1.0     03/10/17 TSI"
+#
+## Ping Server System Commands
+#
+SERVER=${1}
+NODEARC=`uname -s`
+#set Email = "weng-leong.yap@t-systems.com Siu-Siong.Lim@t-systems.com"
+if [ "$SERVER" = "" ]; then
+	echo ""
+	echo "Usage:"
+        echo "ping_server hostname"
+	echo ""
+
+else
+	echo ""
+	echo "[RESULT]"
+
+case ${NODEARC} in
+        SunOS)
+                PLATFORM=1
+		PING=`ping -c 5 $SERVER > /dev/null`
+		;;
+	Linux)
+		PLATFORM=1
+		PING=`ping -c 5 $SERVER > /dev/null`
+		;;
+	HP-UX)
+		PLATFORM=2
+		PING=`ping $SERVER -n 5 > /dev/null`
+		;;
+	AIX)
+		PLATFORM=1
+		PING=`ping -c 5 $SERVER > /dev/null`
+		;;
+	*)
+		echo "Unknown platform detected!!!"
+		echo "Please contact LUX L3 to further investigate.."
+		;;
+esac
+
+	if [ $? != 0 ]; then
+		echo "CODE:FAIL"
+		echo "ACTION: Dispath Ticket To L2"
+           #mailx -s "$SERVER is not responding to ping, please check" $Email
+	else
+		echo "CODE:PASS"	
+		echo "ACTION: Ticket Closure"
+        fi
+fi

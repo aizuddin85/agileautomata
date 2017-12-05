@@ -1,0 +1,12 @@
+checkcpu.sh v1.2
+[OUTPUT]
+Image        : AIX Classic
+Date         : Mon Nov 20 02:13:04 CUT 2017
+Hostname     : pat2310
+
+Getting CPU info...
+CPU Busy     : 4%
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

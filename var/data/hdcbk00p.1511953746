@@ -1,0 +1,12 @@
+luxchk_cpu.sh v1.2
+[OUTPUT]
+Image        : HP-UX Classic
+Date         : Wed Nov 29 05:09:10 CST 2017
+Hostname     : hdcbk00p
+
+Getting CPU info...
+CPU Busy     : 89%
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

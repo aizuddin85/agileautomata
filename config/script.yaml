@@ -1,0 +1,22 @@
+# This is re.search regex style.
+
+# LUX Check
+
+LINUX_CHECK:
+  - regexinfo: 'CPU Utilization|CPU usage'
+    scriptname: luxchk_cpu.sh
+    localconn: False
+    comment: A script to check CPU Utilization
+
+  - regexinfo: 'Disk space utilization for Logical Disk'
+    scriptname: luxchk_clean_fs.sh
+    localconn: False
+    comment: A script to check disk utilization
+
+# Wintel Check
+
+WINTEL_CHECK:
+  - regexinfo: 'CPU Utilization|CPU usage'
+    scriptname: 'wmi_cpu.py'
+    localconn: True
+    comment: WMI check for CPU

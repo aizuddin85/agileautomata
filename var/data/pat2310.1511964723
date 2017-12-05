@@ -1,0 +1,12 @@
+luxchk_cpu.sh v1.2
+[OUTPUT]
+Image        : AIX Classic
+Date         : Wed Nov 29 14:12:04 CUT 2017
+Hostname     : pat2310
+
+Getting CPU info...
+CPU Busy     : 4%
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

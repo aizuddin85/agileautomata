@@ -1,0 +1,9 @@
+cleanfs.sh v1.2
+[OUTPUT]
+Image        : AIX Classic
+Date         : Mon Nov 20 07:02:04 NFT 2017
+Hostname     : amsdc2-u-s00031
+
+CODE:FAIL
+ACTION: Non Supported OS Type. Exit script
+Please perform manual clean up.

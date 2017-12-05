@@ -1,0 +1,8 @@
+cleanfs.sh v1.1
+[OUTPUT]
+Image        : SunOS Classic
+Date         : Sun Nov 19 20:05:34 CST 2017
+Hostname     : clldc-u-s00009
+
+CODE:FAIL
+ACTION: Non Supported OS Type. Exit script

@@ -1,0 +1,13 @@
+check_hpoa v2.1
+[OUTPUT]
+Image        : Linux Classic
+Date         : Fri Nov 17 15:04:16 +08 2017
+Hostname     : cbj-n-b00110
+
+Checking HPOA agent status...
+HPOA is not installed
+
+[RESULT]
+CODE:FAIL
+ACTION: Dispath Ticket To L2
+ACTION: Please verify if server is in scope for monitoring via TREP. If YES, then re-install HPOA software. If NO, then request ENSM to remove the monitor.

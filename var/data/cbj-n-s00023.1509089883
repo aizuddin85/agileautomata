@@ -1,0 +1,12 @@
+checkcpu.sh v1.1
+[OUTPUT]
+Image        : Linux Classic
+Date         : Fri Oct 27 15:38:07 +08 2017
+Hostname     : cbj-n-s00023
+
+Getting CPU info...
+CPU Busy     : 6.48%
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

@@ -1,0 +1,8 @@
+cleanfs.sh v1.1
+[OUTPUT]
+Image        : HP-UX Classic
+Date         : Sun Nov 19 20:06:24 CST 2017
+Hostname     : hdcbk00p
+
+CODE:FAIL
+ACTION: Non Supported OS Type. Exit script

@@ -1,0 +1,22 @@
+check_hpoa v2.1
+[OUTPUT]
+Image        : Linux Classic
+Date         : Mon Nov 20 03:06:21 CET 2017
+Hostname     : tunidl-n-b00101
+
+Checking HPOA agent status...
+Running agents:
+agtrep (32576)
+coda (32547)
+opcacta (32501)
+opcle (32597)
+opcmona (32530)
+opcmsga (32511)
+opcmsgi (32586)
+ovbbccb (32386)
+ovcd (32287)
+ovconfd (32457)
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

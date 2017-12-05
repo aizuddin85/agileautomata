@@ -1,0 +1,23 @@
+luxchk_hpoa.sh v2.3
+[OUTPUT]
+Image        : SunOS Classic
+Date         : Thu Nov 30 05:49:07 GMT 2017
+Hostname     : amsdc2-u-s00044
+Uptime       : 52 min(s)
+
+Checking HPOA agent status...
+Running agents:
+agtrep (3245)
+coda (3238)
+opcacta (3237)
+opcle (3230)
+opcmona (3226)
+opcmsga (3253)
+opcmsgi (3228)
+ovbbccb (3222)
+ovcd (3221)
+ovconfd (3223)
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

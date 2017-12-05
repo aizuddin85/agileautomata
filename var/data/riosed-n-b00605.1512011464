@@ -1,0 +1,12 @@
+luxchk_cpu.sh v1.2
+[OUTPUT]
+Image        : Linux Classic
+Date         : Thu Nov 30 02:52:08 BRST 2017
+Hostname     : riosed-n-b00605
+
+Getting CPU info...
+CPU Busy     : 100%
+
+[RESULT]
+CODE:FAIL
+ACTION: Dispath Ticket To L2

@@ -1,0 +1,14 @@
+luxchk_hpoa.sh v2.3
+[OUTPUT]
+Image        : SunOS Classic
+Date         : Wednesday, November 29, 2017 10:22:32 AM GMT
+Hostname     : amsdc2-u-s00044
+Uptime       : 2 day(s)
+
+Checking HPOA agent status...
+HPOA is not installed
+
+[RESULT]
+CODE:FAIL
+ACTION: Dispath Ticket To L2
+Please verify if server is in scope for monitoring via TREP. If YES, then re-install HPOA software. If NO (e.g. VWS), then request ENSM to remove the monitor.

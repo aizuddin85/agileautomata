@@ -1,0 +1,22 @@
+check_hpoa v2.0
+[OUTPUT]
+Image        : SunOS Classic
+Date         : Fri Nov 17 06:14:03 GMT 2017
+Hostname     : riju18
+
+Checking HPOA agent status...
+Running agents:
+agtrep (25743)
+coda (25762)
+opcacta (25757)
+opcle (25751)
+opcmona (25720)
+opcmsga (25725)
+opcmsgi (25759)
+ovbbccb (25716)
+ovcd (25715)
+ovconfd (25717)
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

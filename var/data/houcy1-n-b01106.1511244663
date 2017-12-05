@@ -1,0 +1,14 @@
+luxchk_hpoa.sh v2.3
+[OUTPUT]
+Image        : Linux Classic
+Date         : Wed Nov 29 03:56:07 CST 2017
+Hostname     : houcy1-n-b01106
+Uptime       : 1 day
+
+Checking HPOA agent status...
+HPOA is not installed
+
+[RESULT]
+CODE:FAIL
+ACTION: Dispath Ticket To L2
+Please verify if server is in scope for monitoring via TREP. If YES, then re-install HPOA software. If NO (e.g. VWS), then request ENSM to remove the monitor.

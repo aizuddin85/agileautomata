@@ -1,0 +1,12 @@
+luxchk_cpu.sh v1.2
+[OUTPUT]
+Image        : AIX Classic
+Date         : Wed Nov 29 08:46:12 CUT 2017
+Hostname     : ztm1001
+
+Getting CPU info...
+CPU Busy     : 9%
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

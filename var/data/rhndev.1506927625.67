@@ -1,0 +1,12 @@
+checkcpu.sh v1.1
+[OUTPUT]
+Image        : Linux Classic
+Date         : Mon Oct  2 09:00:29 CEST 2017
+Hostname     : amsdc1-n-s00294
+
+Getting CPU info...
+CPU Busy     : 2%
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

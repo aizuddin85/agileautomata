@@ -1,0 +1,22 @@
+check_hpoa v2.1
+[OUTPUT]
+Image        : HP-UX Classic
+Date         : Sun Nov 19 20:06:08 CST 2017
+Hostname     : mapin00p
+
+Checking HPOA agent status...
+Running agents:
+agtrep (1739)
+coda (1609)
+opcacta (1706)
+opcle (1710)
+opcmona (1721)
+opcmsga (1697)
+opcmsgi (1708)
+ovbbccb (1608)
+ovcd (1606)
+ovconfd (1685)
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

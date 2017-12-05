@@ -1,0 +1,12 @@
+checkcpu.sh v1.2
+[OUTPUT]
+Image        : AIX Classic
+Date         : Mon Nov 20 03:05:09 CET 2017
+Hostname     : amsdc1-u-s00032
+
+Getting CPU info...
+CPU Busy     : 89%
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

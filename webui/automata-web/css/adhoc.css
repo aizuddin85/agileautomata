@@ -1,0 +1,214 @@
+
+body.list{
+    background-color: #888;
+}
+
+body.home {
+    background: url(images/automata.jpg);
+    position:relative;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    min-height: 100%;
+}
+
+body.home p{
+    position: absolute;
+    float: left;
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    color: white;
+    font-family: "Arial", Courier, monospace;
+}
+
+
+.footer p {
+    text-align: center;
+    color: white;
+    max-height: 5px;
+    font-family: "Arial", Courier, monospace;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 80px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+.topnavi {
+    list-style-type: none;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+    border: solid;
+    border-style: outset;
+    opacity: 0.7;
+}
+
+
+.topnavi h2 {
+    font-family: "Arial", Courier, monospace;
+    color: white;
+}
+
+.topnavi img {
+    float: lef;
+    height: 50px;
+    width: 250px;
+    padding: 10px;
+    display: inline;
+}
+
+.topnavi img[alt='shelllogo'] {
+    float: left;
+    height: 120px;
+    width: 140px;
+    padding: 10px;
+    display: inline;
+}
+
+.topnavi img[alt='tlogo'] {
+    float: right;
+    height: 80px;
+    width: 250px;
+    padding: 3px;
+    display: inline;
+}
+
+.topnavi ul {
+    list-style-type: none;
+    border-radius: 20px;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+    border: solid;
+    border-style: outset;
+    opacity: 0.7;
+}
+
+.topnavi font {
+    height: 50px;
+    width: 250px;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    text-align: auto;
+
+}
+
+.topnavi li {
+    display: inline;
+    float: right;
+    list-style-type: none;
+}
+
+.topnavi  a {
+    padding: 7px 21px;
+    margin: 20px;
+    list-style-type: none;
+    display: inline;
+    background: black;
+    color: white;
+    float: right;
+    border-style: outset;
+    border-radius: 20px;
+    font-family: "Arial", Courier, monospace;
+    font: 17px;
+}
+
+.topnavi  a:hover {
+    background: black;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+
+.topnavi  li.icon {
+    display: none;
+}
+
+form.home {
+    padding: 30px;
+    margin: 0 auto;
+    width: 30%;
+    color: white;
+    font-family: "Arial", Courier, monospace;
+    border: solid;
+    border-style: outset;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 20px;
+    overflow: auto;
+}
+form.home h1 {
+    font-family: "Arial", Courier, monospace;
+    font-size:30px;
+    color:white;
+    opacity:0.7;
+    text-decoration: underline;
+    padding: 0px;
+}
+
+form.home input[type='submit']{
+    border-style: outset;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+form.home h2 {
+    font-family: "Arial", Courier, monospace;
+    font-size:20px;
+    color:white;
+    opacity:0.7;
+    text-decoration: underline;
+    padding: 5px;
+    text-align: center;
+}
+
+
+form.home a {
+    font-family: "Arial", Courier, monospace;
+    padding: 10px;
+    font-size:15px;
+    color: white;
+    text-align: center;
+    border: solid;
+    border-style: outset;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 20px;
+}
+
+form.home font  {
+    font-family: "Arial", Courier, monospace;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+
+form.home texarea{
+    font-family: "Arial", Courier, monospace;
+    font-size: 17px;
+    color: white;
+    text-align: left;
+}
+

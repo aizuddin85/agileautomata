@@ -1,0 +1,10 @@
+luxchk_clean_fs.sh v1.4
+[OUTPUT]
+Image        : SunOS Classic
+Date         : Wed Nov 29 02:39:23 CST 2017
+Hostname     : houic-u-v5002
+
+Unsupported OS Type by script. Please perform manual clean up. 
+[RESULT]
+CODE:FAIL
+ACTION: Dispath Ticket To L2

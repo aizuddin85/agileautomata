@@ -1,0 +1,28 @@
+check_hpoa v1.2
+[OUTPUT]
+Image        : AIX
+Date         : Tue Nov 14 07:48:30 CET 2017
+Hostname     : amsdc2-u-s00124
+
+Issue Found ...  0 0
+Restarting agents ... 
+Stopping HPOA agents ... 
+Starting HPOA agents ... 
+scopeux     Perf Agent data collector                        (6226096)Running
+midaemon    Measurement Interface daemon                     (4522170)Running
+ttd         ARM registration daemon                          (6946994)Running
+perfalarm   Alarm generator                                  (8388772)Running
+agtrep      OV Discovery Agent                  AGENT,AgtRep (8192154) Running 
+coda        OV Performance Core                 COREXT       (10616858) Running 
+opcacta     OVO Action Agent                    AGENT,EA     (7733324) Running 
+opcmona     OVO Monitor Agent                   AGENT,EA     (9699432) Running 
+opcmsga     OVO Message Agent                   AGENT,EA     (7274676) Running 
+opcmsgi     OVO Message Interceptor             AGENT,EA     (8257568) Running 
+ovbbccb     OV Communication Broker             CORE         (9961694) Running 
+ovcd        OV Control                          CORE         (8716326) Running 
+ovconfd     OV Config and Deploy                COREXT       (10748024) Running 
+Message Agent is not buffering. 
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure

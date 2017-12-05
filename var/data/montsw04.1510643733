@@ -1,0 +1,12 @@
+checkcpu.sh v1.2
+[OUTPUT]
+Image        : HP-UX Classic
+Date         : Tue Nov 14 01:15:35 CST 2017
+Hostname     : montsw04
+
+Getting CPU info...
+CPU Busy     : 27%
+
+[RESULT]
+CODE:PASS
+ACTION: Ticket Closure
